@@ -1,13 +1,12 @@
 import saludar from "./saludar";
-import sumar from "./saludar";
 
-const first = document.querySelector("#nombre");
+const nombre = document.querySelector("#nombre");
 const form = document.querySelector("#saludar-form");
 const div = document.querySelector("#resultado-div");
-
+const genero = document.querySelector("#genero");
 form.addEventListener("submit", (event) => {
   event.preventDefault();
-
-  const nombre = first.value;
-  div.innerHTML = "<p>" + saludar(nombre) + "</p>";
+  const nom = nombre.value;
+  const gen = genero.value;
+  div.innerHTML = "<p>" + saludar(nom,gen) + "</p>";
 });
