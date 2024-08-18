@@ -1,4 +1,4 @@
-function saludar(nombre, genero, edad) {
+function saludarEspaniol(nombre, genero, edad) {
   let saludo;
   genero = genero.toLowerCase();
 
@@ -19,4 +19,4 @@ function saludar(nombre, genero, edad) {
   return saludo;
 }
 
-export default saludar;
+export default saludarEspaniol;
