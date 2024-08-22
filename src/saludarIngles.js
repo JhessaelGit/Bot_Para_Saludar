@@ -3,13 +3,13 @@ function saludarIngles(nombre, genero, edad) {
     genero = genero.toLowerCase();
   
     if (edad >= 30) {
-      if (genero === "masculino") {
+      if (genero === "m") {
         saludo = "Hello Sir " + nombre;
       } else {
         saludo = "Hello Madam " + nombre;
       }
     } else {
-      if (genero === "masculino") {
+      if (genero === "m") {
         saludo = "Hello Young Man " + nombre;
       } else {
         saludo = "Hello Miss " + nombre;

@@ -3,13 +3,13 @@ function saludarEspaniol(nombre, genero, edad) {
   genero = genero.toLowerCase();
 
   if (edad >= 30) {
-    if (genero === "masculino") {
+    if (genero === "m") {
       saludo = "Hola Señor " + nombre;
     } else {
       saludo = "Hola Señora " + nombre;
     }
   } else {
-    if (genero === "masculino") {
+    if (genero === "m") {
       saludo = "Hola Joven " + nombre;
     } else {
       saludo = "Hola Señorita " + nombre;

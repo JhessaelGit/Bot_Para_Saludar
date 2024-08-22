@@ -8,6 +8,8 @@ const edad = document.querySelector("#edad");
 const genero = document.querySelector("#genero");
 const idioma = document.querySelector("#idioma");
 
+
+
 form.addEventListener("submit", (event) => {
   event.preventDefault();
   const nom = nombre.value;
